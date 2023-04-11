@@ -28,12 +28,12 @@ In general, to initially set up one of the virtual environments, one can navigat
 >pip install ipython --force-reinstall
 >pip install notebook --force-reinstall
 ```
-where `<environment_script.sh>` is the virtual environment script in question, and `<environment_directory` is the directory which is created when the script is run. Then the virtual environment can be used any time by running:
+where `<environment_script.sh>` is the virtual environment script in question, and `<environment_directory>` is the directory which is created when the script is run. Then the virtual environment can be used any time by running:
 
 ```
 >source <loc>/<environment_directory>/bin/activate
 ```
 
-where <loc> is the directory containing the scripts. This command can be added as an alias to your bashrc file for easy usage. For more specific instructions regarding each individual environment, see the comments in the scripts.
+where `<loc>` is the directory containing the scripts. This command can be added as an alias to your bashrc file for easy usage. For more specific instructions regarding each individual environment, see the comments in the scripts.
 
 
