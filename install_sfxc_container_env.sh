@@ -25,7 +25,6 @@
 # Clean modules which already exist
 module purge
 module load anaconda/3/2021.11
-module load charliecloud/0.30 
 
 # Create new virtual environment and activate
 python -m venv --system-site-packages sfxc_cont-env
@@ -50,6 +49,7 @@ pip install notebook --force-reinstall
 # test
 python -c "from baseband import vdif"
 
-
+# install charliecloud
+module load charliecloud/0.30
 
 
