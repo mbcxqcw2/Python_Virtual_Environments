@@ -15,6 +15,8 @@ Note: not every environment installs every dependency
 - Riptide (folding algorithm for pulsars): https://github.com/v-morello/riptide
 - FRBPA (periodicity searcher for FRBs): https://github.com/KshitijAggarwal/frbpa.git
 - P4J (requirement for FRBPA): https://github.com/phuijse/P4J
+-CharlieCloud 3.0 (requirement for SFXC): https://hpc.github.io/charliecloud/#
+
 
 ---
 
